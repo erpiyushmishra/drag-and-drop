@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:"poppins",sans-serif;
+    box-sizing:border-box;
+}
+.container{
+    width:100vw;
+    height:100vh;
+    background-color:#0b0423;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#left,#right{
+    width:300px;
+    min-height:400px;
+    border:2px white dashed;
+    margin:20px;
+    cursor:grab;
+}
+.list{
+    display:flex;
+    align-items:center;
+    background-color:#e91e63;
+    margin:20px;
+    color:white;
+    height:40px;
+}
+.list img{
+    width:10px;
+    margin:10px;
+}
